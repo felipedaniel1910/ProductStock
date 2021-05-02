@@ -29,7 +29,7 @@ void vender (){
 
 void cadastrar (){		// Função responsável por cadastrar as pecas.
 	
-	arq = fopen ("Pecas.txt.", "a");
+	arq = fopen ("database.txt.", "a");
 
 	
 	printf("\nDescriminação da peça: ");
@@ -86,7 +86,7 @@ void consultar (){
 
 void recuperar (){
 	
-	arq = fopen ("Pecas.txt.", "r");
+	arq = fopen ("database.txt.", "r");
 	
 	
 	while (!feof(arq)){
