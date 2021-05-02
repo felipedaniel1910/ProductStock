@@ -1,5 +1,3 @@
-// linha 47 - Verificacao de codigo repetido com defeito
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
