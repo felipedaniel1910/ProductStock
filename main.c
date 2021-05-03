@@ -138,7 +138,9 @@ int main (){
 	setlocale(LC_ALL,"Portuguese");	
 	int escolha = 0;
 	
-	do {		// Responsavel pela repeticao do MENU, possibilitanto assim fazer varias ações
+	while(1) {		// Responsavel pela repeticao do MENU, possibilitanto assim fazer varias ações
+		
+		do{
 		system("pause");
 		system("cls");
 		printf("****MENU****\n");  		// Apresenta o MENU do sistema
@@ -146,7 +148,7 @@ int main (){
 		printf("\n2- Consultar peça ");
 		printf("\n3- Vender peça ");
 		printf("\n4- Sair ");
-		scanf("%d", &escolha);
+		scanf("%d", &escolha);} while(escolha!=1&&escolha!=2&&escolha!=3&&escolha!=4);
 		
 		switch (escolha){
 			case 1: 		// Cadastro das peças
@@ -171,7 +173,7 @@ int main (){
 				break;		  
 		}
 		
-	} while (1);
+	}
 }
 	
 
