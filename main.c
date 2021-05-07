@@ -1,3 +1,5 @@
+//Codigo controle de pecas
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
